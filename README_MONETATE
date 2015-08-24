@@ -1,0 +1,3 @@
+This repository serves the sad purpose of "supporting" an RPM build of
+Go v1.4.x for CentOS 5.  The included go.spec file and rpmbuild.sh
+script help with producing the RPM artifact.
