@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION=1.4.2.monetate2
+VERSION=1.4.2.monetate4
 
 yum install -y rpmdevtools yum-utils
 yum-builddep go.spec | true

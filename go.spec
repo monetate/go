@@ -1,5 +1,5 @@
 Name:           go
-Version:        1.4.2.monetate2
+Version:        1.4.2.monetate4
 Release:        1%{?dist}
 Summary:        Go development tools
 Group:          Development/Languages
