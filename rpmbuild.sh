@@ -8,5 +8,5 @@ yum install -y rpmdevtools yum-utils
 yum-builddep go.spec | true
 rpmdev-setuptree
 spectool -R -g go.spec
-mv rpmbuild/SOURCES/${VERSION} rpmbuild/SOURCES/${VERSION}.tar.gz
+mv /root/rpmbuild/SOURCES/${VERSION} /root/rpmbuild/SOURCES/${VERSION}.tar.gz
 rpmbuild -bb go.spec
